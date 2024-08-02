@@ -59,4 +59,37 @@ header ul a {
     display: flex;
     border-radius: 50%;
     background-color: rgba(115, 115, 115, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger .bar{
+    position: relative;
+    width: 52%;
+    height: 1.3px;
+    background-color: #fff;
+    border-radius: 2px;
+
+}
+
+.hamburger .bar:before,
+.hamburger .bar:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: 2px;
+}
+
+.hamburger .bar:before {
+    top: -4.5px;
+}
+
+.hamburger .bar:after {
+    bottom: 4.5px;
 }
