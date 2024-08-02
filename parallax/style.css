@@ -17,12 +17,12 @@ body {
     width: 100px;
 }
 header {
+    position: absolute;
     width: 100%;
     border-bottom: 1px solid rgb(255, 255, 255, 0.1);
 }
 
 header nav{
-    background-color: #333;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
@@ -93,4 +93,9 @@ header ul a {
 
 .hamburger .bar:after {
     bottom: -4.5px;
+}
+
+main {
+    background-color: #353;
+    height: 100vh;
 }
