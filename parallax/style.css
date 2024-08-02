@@ -92,5 +92,5 @@ header ul a {
 }
 
 .hamburger .bar:after {
-    bottom: 4.5px;
+    bottom: -4.5px;
 }
