@@ -110,7 +110,7 @@ main {
 .bg-img {
     position: absolute;
     width: 2800px;
-    top: calc(50%-180px);
+    top: calc(50%-150px);
     left: calc(50%);
     transform: translate(-50%, -50%);
 }
