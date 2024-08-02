@@ -75,7 +75,7 @@ header ul a {
 
 }
 
-.hamburger .bar:before,
+/*.hamburger .bar:before,
 .hamburger .bar:after {
     content: "";
     position: absolute;
@@ -93,4 +93,4 @@ header ul a {
 
 .hamburger .bar:after {
     bottom: -4.5px;
-}
+}*/
