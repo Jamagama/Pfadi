@@ -22,7 +22,7 @@ body {
 }
 
 header nav{
-    background-color: red;
+    background-color: #333;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
@@ -70,14 +70,14 @@ header ul a {
     position: relative;
     width: 52%;
     height: 1.3px;
-    background-color: #333;
+    background-color: #fff;
     border-radius: 2px;
 
 }
 
 .hamburger .bar:before,
 .hamburger .bar:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 50%;
     transform: translate(-50%);
